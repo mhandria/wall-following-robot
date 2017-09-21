@@ -1,0 +1,21 @@
+Dependencies for Project 'DCMotor', Target 'DCMotor': (DO NOT MODIFY !)
+F (.\startup.s)(0x519961BE)(--cpu Cortex-M4 --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\PLL.c)(0x522D46A6)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\pll.o --omf_browse .\pll.crf --depend .\pll.d)
+I (PLL.h)(0x581FC854)
+F (.\DCMotor.c)(0x5848CD78)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\dcmotor.o --omf_browse .\dcmotor.crf --depend .\dcmotor.d)
+I (PLL.h)(0x581FC854)
+I (tm4c123gh6pm.h)(0x51D4B702)
+I (ADCSWTrigger.h)(0x5820C387)
+I (Nokia5110.h)(0x5820D1EF)
+I (PWM.h)(0x58484652)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C88A34)
+F (.\Nokia5110.c)(0x5820D1EA)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\nokia5110.o --omf_browse .\nokia5110.crf --depend .\nokia5110.d)
+I (Nokia5110.h)(0x5820D1EF)
+F (.\ADCSWTrigger.c)(0x5820CA73)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\adcswtrigger.o --omf_browse .\adcswtrigger.crf --depend .\adcswtrigger.d)
+I (ADCSWTrigger.h)(0x5820C387)
+I (C:\Keil\ARM\Inc\Luminary\lm4f120h5qr.h)(0x532CB86E)
+F (.\PWM.c)(0x5848569E)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\pwm.o --omf_browse .\pwm.crf --depend .\pwm.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (tm4c123gh6pm.h)(0x51D4B702)
+F (.\PWM.h)(0x58484652)()
